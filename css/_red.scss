@@ -1,0 +1,26 @@
+@import './reset';
+
+
+.img-main-botellas{
+    background-image: linear-gradient(to bottom, #574c51, #755d60, #936f6a, #ac8470, #be9d75, #bb9a71, #b8976e, #b5946a, #9e745d, #7f5751, #5d3f43, #3b2931);
+    background-repeat: no-repeat;
+    background-size: 200rem;
+    border:  2px solid #867e74;
+}
+.titulo-tintos{
+    padding: 1rem;
+    color: rgb(97, 21, 46);
+    text-decoration: solid overline;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+.img-botellas-vinos{
+    padding: 1rem;
+    border: 0.18rem solid #D2C1AE;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+

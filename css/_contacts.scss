@@ -1,0 +1,43 @@
+@import './reset';
+
+.contactos__box{
+    border:  0.2rem solid #D2C1AE;
+            box-shadow: 0.2rem 0.2rem 0.4rem 0.4rem rgb(56, 56, 56);
+    .contactos__form{
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        .contactos__fieldset{
+            display: flex;
+            justify-content: space-around;
+            border:  0.2rem solid #D2C1AE;
+            box-shadow: 0.2rem 0.2rem 0.4rem 0.4rem rgb(56, 56, 56);
+            margin: 2rem;
+            
+            text-align: center;
+            .contactos__divfiel{
+                margin: 1rem;
+            }
+        }
+    }
+}
+.contactos__box h2{
+    color:rgb(66, 15, 32);
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: solid overline;
+}
+.contactos__divfiel p{
+    color:rgb(66, 15, 32);
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: solid underline overline;
+}
+.contactos__divfiel label{
+    color: rgb(37, 12, 20);
+    font-weight: bold;
+    font-size: 100%;
+}

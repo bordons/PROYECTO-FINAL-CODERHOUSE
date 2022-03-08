@@ -1,0 +1,34 @@
+@import './reset';
+
+.eleccionvinos{
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(37, 12, 20);
+    font-size: 1.4rem;
+}
+.elecciontintoblanco{
+    padding: 1rem;
+    display: grid;
+    grid-gap: 5rem;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+.elecciontintoblanco img{
+    box-shadow: 3px 3px 10px 5px #383838;
+    border: solid 0.1rem #D2C1AE;
+}
+.coloreleccion{
+    color: rgb(97, 21, 46);
+    text-decoration: solid overline;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.coloreleccion:hover{
+    color: rgb(226, 218, 218);
+}
+.titulovino{
+    padding: 2em;
+}
+

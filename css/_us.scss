@@ -1,0 +1,35 @@
+@import './reset';
+
+main{
+    border: 0.18rem solid #D2C1AE;  
+}
+.clasenosotrosimg h2{
+    padding: 1rem;
+    text-align: center;
+    color: #61152e;
+    font-weight: bold;
+    text-decoration: solid overline;
+}
+.clasenosotrossection{
+    padding: 1rem;
+    display: grid;
+}
+.clasenosotrossection p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.nosotros1{
+    text-shadow: 0.1em 0.1em 0.2em rgb(240, 236, 236);
+    color: #0a0a0a;
+}
+.nosotros2{
+    text-shadow: 0.1em 0.1em 0.2em rgb(8, 8, 8);
+    color: #e7e0e0;
+}
+.clasenosotrossection img{
+    box-shadow: 3px 3px 10px 5px #383838;
+    border: solid 0.1rem #D2C1AE;
+}
+
+

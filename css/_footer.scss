@@ -1,0 +1,26 @@
+@import './reset';
+
+.footer{
+    background-color: #584d43;
+    border: 0.18rem solid #D2C1AE;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.footer__link-redes{
+    font-size: 1.5em;
+    color:#E3C39D ;
+    text-decoration: solid overline;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    -webkit-transition: background-size .3s;
+    transition: background-size .3s;
+}
+.footer__link-redes:hover{
+    color: #581526;
+}
